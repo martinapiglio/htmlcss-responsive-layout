@@ -1,0 +1,42 @@
+/* header */
+header nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #0084fd;
+    padding: 1em 1.5em;
+}
+
+header nav .container .logo {
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+header nav .container .nav-row {
+    display: none;
+}
+
+header nav .container .menu {
+    font-size: 1.3em;
+    color: white;
+    cursor: pointer;
+}
+/* /header */
+
+/* main */
+main .main-top {
+    padding: 3em 1.5em;
+}
+
+main .main-top .card {
+    padding: 1.5em 1.5em 0;
+    border-radius: 20px;
+    background-color: #b5ddff;
+}
+
+main .main-top .card .card-img img {
+    display: block;
+    width: 100%;
+}
+
