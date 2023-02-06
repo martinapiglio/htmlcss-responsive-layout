@@ -66,3 +66,164 @@ main .main-top .card .card-icon {
     font-size: 4em;
     color: #0084fd;
 }
+/* /main-top */
+
+/* main-center */
+main .main-center .section {
+    padding: 3em 1.6em;
+}
+
+main .main-center .section#strategic-planning {
+    background-color: #9792e4;
+}
+
+main .main-center .section#strategic-planning img {
+    display: block;
+    width: 100%;
+}
+
+main .main-center .section#strategic-planning .card h2,
+main .main-center .section#strategic-planning .card h3, 
+main .main-center .section#testimonials .presentation h2,
+main .main-center .section#benefits h2,
+main .main-center .section#about-us h1 {
+    padding-bottom: 1.2em;
+}
+
+main .main-center .section#strategic-planning .card#card-purple {
+    color: white;
+}
+
+main .main-center .section#strategic-planning .card#card-purple img {
+    padding-bottom: 5em;
+}
+
+main .main-center .section#strategic-planning .card p, 
+main .main-center .section#testimonials .presentation span,
+main .main-center .section#testimonials p,
+main .main-center .section#benefits p {
+    font-size: .8em;
+    line-height: 180%;
+    padding-bottom: 1.3em;
+}
+
+main .main-center .section#strategic-planning .card#card-white {
+    border-radius: 50px;
+    padding: 1.6em;
+
+    text-align: center;
+    background-color: white;
+}
+
+main .main-center .section#strategic-planning .card#card-white img {
+    padding-bottom: 1.6em;
+}
+
+main .main-center .section#testimonials {
+    text-align: center;
+}
+
+main .main-center .section#testimonials .presentation h2{
+    color: #9792e4;
+    padding-top: 10px;
+}
+
+main .main-center .section#testimonials .card {
+    border-radius: 50px;
+    padding: 1.6em;
+    margin-bottom: 1.6em ;
+
+    color: white;
+    background-color: #9792e4;
+}
+
+
+main .main-center .section#testimonials .card img {
+    display: block;
+    margin-bottom: 1em;
+
+    height: 100%;
+    width: 100%; 
+    clip-path: circle();
+}
+
+main .main-center .section#testimonials .card .name {
+    font-weight: bold;
+}
+
+main .main-center .section#benefits {
+    background-color: #9792e4;
+}
+
+main .main-center .section#benefits h2 {
+    color: white;
+    text-align: center;
+}
+
+main .main-center .section#benefits .card {
+    border-radius: 20px;
+    padding: 1.6em;
+    margin-bottom: 1.6em ;
+
+    background-color: white; 
+}
+
+main .main-center .section#benefits .card .number {
+    padding-bottom: .8em;
+    
+    color: #9792e4;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+main .main-center .section#benefits .card h3 {
+    padding-bottom: .8em;
+    
+    color: #9792e4;
+}
+
+main .main-center .section#benefits .card p {
+    color:#536575;
+}
+
+main .main-center .section#about-us h1 {
+    font-size: 2em;
+    color: #9792e4;
+}
+
+main .main-center .section#about-us p {
+    font-size: .8em;
+    line-height: 210%;
+    padding-bottom: 3em;
+}
+
+main .main-center .section#about-us .quote #quote-img{
+    position: relative;
+}
+
+main .main-center .section#about-us .quote #quote-img img{
+    display: block;
+    margin-bottom: 1em;
+
+    width: 50%; 
+    clip-path: circle();
+}
+
+main .main-center .section#about-us .quote #quote-img #mark-icon{
+    position: absolute;
+    top: 0;
+    left: 37%;
+
+    font-size: 2.5em;
+    color: #9792e4;
+}
+
+main .main-center .section#about-us .quote #quote-txt{
+    color: #9792e4;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+/* /main-center */
+
+/* main-bottom */
