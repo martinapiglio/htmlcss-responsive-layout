@@ -227,3 +227,40 @@ main .main-center .section#about-us .quote #quote-txt{
 /* /main-center */
 
 /* main-bottom */
+main .main-bottom {
+    padding: 3em 1.6em;
+
+    text-align: center;
+    background-color: #9792e4;
+}
+
+main .main-bottom #start {
+    display: block;
+
+    color: white;
+    opacity: 50%;
+    padding-bottom: 1em;
+}
+
+main .main-bottom h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 1em;
+    color: white;
+}
+
+main .main-bottom h1 {
+    font-size: 3em;
+    font-weight: bold;
+    padding-bottom: .6em;
+    color: #fdc15f;
+}
+
+main .main-bottom #desc,
+main .main-bottom #copyright {
+    font-size: .7em;
+    line-height: 180%;
+    padding-bottom: 1.6em;
+    color: white;
+}
+
