@@ -25,14 +25,35 @@ header nav .container .menu {
 /* /header */
 
 /* main */
+/* main-top */
 main .main-top {
     padding: 3em 1.5em;
 }
 
 main .main-top .card {
-    padding: 1.5em 1.5em 0;
+    padding: 1.6em 1.6em 0;
+    margin-bottom: 1.6em;
     border-radius: 20px;
     background-color: #b5ddff;
+}
+
+main .main-top .card:not(.card:first-child) {
+    text-align: center;
+    padding-bottom: 1.6em;
+}
+
+main .main-top .card .card-text h3{
+    font-size: 1.1em;
+    padding-bottom: 1.2em;
+    color: #0084fd;
+}
+
+main .main-top .card .card-text p{
+    font-size: .7em;
+    font-weight: bold;
+    line-height: 180%;
+    padding-bottom: 1.2em;
+    color: #536575;
 }
 
 main .main-top .card .card-img img {
@@ -40,3 +61,8 @@ main .main-top .card .card-img img {
     width: 100%;
 }
 
+main .main-top .card .card-icon {
+    padding-bottom: .2em;
+    font-size: 4em;
+    color: #0084fd;
+}
