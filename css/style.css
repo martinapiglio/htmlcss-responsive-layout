@@ -302,7 +302,49 @@ footer a {
 }
 
 /* buttons */
+.buttons {
+    border: none;
+    border-radius: 15px;
+    padding: .5em;
+    cursor: pointer;
+}
 
+#apple-btn,
+.more-btn,
+#get-start-btn {
+    width: 50%;
+
+    font-weight: bold;
+    color: white;
+}
+
+#apple-btn {
+    background-color: #0084fd;
+}
+
+#arrow-btn,
+.more-btn,
+#linkedin-btn {
+    background-color: #9792e4;
+}
+
+#arrow-btn {
+    padding: .5em .7em;
+    border-radius: 50%;
+}
+
+#linkedin-btn  {
+    color: white;
+}
+
+#get-start-btn {
+    padding: 1.5em;
+    margin-bottom: 1em;
+
+    color: #9792e4;
+    background-color: white;
+    border-radius: 25px;
+}
 
 
 /* RESPONSIVE */
@@ -392,6 +434,7 @@ footer a {
         display: block;
 
         display: flex;
+        align-items: center;
         gap: 1.5em;
 
         font-size: .8em;
